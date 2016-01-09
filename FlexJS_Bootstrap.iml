@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="FlexJS_Bootstrap">
+    <configurations>
+      <configuration name="FlexJS_Bootstrap" pure-as="true" main-class="Index" output-file="FlexJS_Bootstrap.swf" output-folder="$MODULE_DIR$/out/production/FlexJS_Bootstrap">
+        <dependencies target-player="19.0">
+          <entries>
+            <entry library-name="FlexJS Nightly Lib" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="7bf53ad3-2148-4568-bcb6-41d61bc916ed">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="2b597384-5575-4935-8fc8-b750fd48c0e7">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="js-05" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="js-05" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="FlexJS Nightly Lib" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="7bf53ad3-2148-4568-bcb6-41d61bc916ed" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/backbone.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="2b597384-5575-4935-8fc8-b750fd48c0e7" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/underscore.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
